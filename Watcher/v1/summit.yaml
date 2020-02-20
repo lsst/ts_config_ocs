@@ -7,14 +7,29 @@ rules:
   - name: ATMCS
   - name: ATPneumatics
   - name: ATPtg
-  - name: Environment
   - name: ATAOS
+  - name: Environment:1
+  - name: DIMM:1
+  - name: DIMM:2
   - name: GenericCamera
+  - name: ATCamera
+  - name: ATHeaderService
+  - name: ATArchiver
+  - name: ATSpectrograph
+  - name: ScriptQueue:2
 - classname: Heartbeat
   configs:
   - name: ATDome
   - name: ATDomeTrajectory
   - name: ATHexapod
-  - name: Environment
+  - name: ATMCS
+  - name: ATPneumatics
   - name: ATAOS
+  - name: Environment:1
   - name: GenericCamera
+  - name: DIMM:1
+  - name: DIMM:2
+  - name: ATHeaderService
+  - name: ATArchiver
+  - name: ATSpectrograph
+  - name: ScriptQueue:2
